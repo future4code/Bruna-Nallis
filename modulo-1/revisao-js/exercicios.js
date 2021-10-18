@@ -62,9 +62,14 @@ function retornaNPrimeirosPares(n) {
 
 // EXERCÍCIO 09
 function classificaTriangulo(ladoA, ladoB, ladoC) {
-
+if( ladoA===ladoB && ladoB===ladoC && ladoC===ladoA){
+    return 'É um triangulo equilatero'
+} else if( ladoA===ladoB || ladoA===ladoC || ladoB===ladoC){
+    return "Isoceles"
+} else if (ladoA !== ladoB && ladoA !== ladoB && ladoB !== ladoC){
+    return escaleno
 }
-
+}
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
 
@@ -72,11 +77,12 @@ function retornaSegundoMaiorESegundoMenor(array) {
     let maiorNUm= Math.max(...array)
 
     const index= array.splice(array.indexOf(maiorNUm))
-    const index2= array.splice(array.index(menorNum))
+    const index2= array.splice(array.indexOf(menorNUm))
 
-    console.log(index2)
+    let segundoMenor= Math.min(...array)
+    let segundoMaior= Math.max(...array)
 
-
+    console.log(segundoMaior, segundoMenor)
 }
 
 // EXERCÍCIO 11
