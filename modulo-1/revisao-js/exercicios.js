@@ -11,14 +11,15 @@ retornaTamanhoArray[1,2,3,4,5]
 
 // EXERCÍCIO 02
 function retornaArrayInvertido(array) {
-  
+  return array.reverse()
 }
+retornaArrayInvertido[1,2,3]
 
 // EXERCÍCIO 03
 function retornaArrayOrdenado(array) {
-  
+  return array.sort()
 }
-
+retornaArrayOrdenado[3,2,1,4,7]
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
   
