@@ -87,7 +87,8 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   
+   const assistirFilme={ filme}
+console.log(`Venha assistir ${filme.nome}, de 2006, dirigido por ${filme.diretor}, e estrelado por${filme.atores}`)
 }
 
 // EXERCÍCIO 12
