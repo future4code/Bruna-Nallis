@@ -39,8 +39,21 @@ function retornaMaiorNumero(array) {
 console.log
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
-
+    
+    if (num1>num2){
+        maior= num1
+        menor= num2
+    }else if (num1<num2) {
+        maior=num2
+        menor=num1      
+    }
+        let objeto = {
+    maiorNumero = maior,
+    maiorDivisivelPorMenor = maior % menor === 0,
+    diferenca = maior-menor
 }
+}
+console.log(`maior numero:${maiorNumero}, maiorDivisivelPorMenor:${maiorDivisivelPorMenor}, diferenca:${diferenca}`)
 
 // EXERCÍCIO 08
 function retornaNPrimeirosPares(n) {
@@ -54,7 +67,16 @@ function classificaTriangulo(ladoA, ladoB, ladoC) {
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {
-  
+
+    let menorNUm= Math.min(...array)
+    let maiorNUm= Math.max(...array)
+
+    const index= array.splice(array.indexOf(maiorNUm))
+    const index2= array.splice(array.index(menorNum))
+
+    console.log(index2)
+
+
 }
 
 // EXERCÍCIO 11
