@@ -22,19 +22,21 @@ function retornaArrayOrdenado(array) {
 retornaArrayOrdenado[3,2,1,4,7]
 // EXERCÍCIO 04
 function retornaNumerosPares(array) {
-  
+    }
+// EXERCÍCIO 05
+function retornaNumerosParesElevadosADois(array) { 
 }
 
-// EXERCÍCIO 05
-function retornaNumerosParesElevadosADois(array) {
- 
-}
 
 // EXERCÍCIO 06
-function retornaMaiorNumero(array) {
-  
-}
 
+function retornaMaiorNumero(array) {
+    let maior = 0 
+    for(let i=0; i < array.length; i++){
+         if (array[i] > maior){ maior = array[i] } 
+} return maior 
+}
+console.log
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {
 
