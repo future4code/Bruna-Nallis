@@ -87,13 +87,27 @@ function retornaSegundoMaiorESegundoMenor(array) {
 
 // EXERCÍCIO 11
 function retornaChamadaDeFilme(filme) {
-   const assistirFilme={ filme}
-console.log(`Venha assistir ${filme.nome}, de 2006, dirigido por ${filme.diretor}, e estrelado por${filme.atores}`)
-}
-
+   const filme={ 
+        nome: 'O Diabo Veste Prada',
+        ano: 2006,
+        diretor: 'David Frankel',
+        atores: ['Meryl Streep', 'Anne Hathaway', 'Emily Blunt', 'Stanley Tucci']
+     }
+     
+   }
+console.log(`Venha assistir ${filme.nome}, de ${filme.ano}, dirigido por ${filme.diretor}, e estrelado por${filme.atores}`)
 // EXERCÍCIO 12
 function retornaPessoaAnonimizada(pessoa) {
-   
+
+    const dadosPessoais= {
+     nome: 'Bruna',
+     idade: 27,
+     endereco: 'Sao Carlos',
+     email: 'bruna.gnallis@gmail.com'  
+    }
+    const anonimo={...dadosPessoais,nome:'anonimo'} 
+    
+    console.log(anonimo)   
 }
 
 // EXERCÍCIO 13A
