@@ -44,6 +44,7 @@ div img {
     border-radius: 5px;
     font-size: 20px;
     color: white;
+    text-align: center;
 }
 
 .botao-amarelo:hover {
@@ -53,7 +54,7 @@ div img {
 
 .container {
     height: 500px;
-    text-align: center;
+    text-align:center;
 }
 
 .icone {
@@ -75,6 +76,7 @@ div img {
     background-color: #2274a5;
     color: white;
 }
+
 
 #container-de-descricao>ol {
     padding: 15px 0px;
@@ -105,11 +107,12 @@ div:last-child {
 
 table {
     width: 60%;
+    margin: auto;
 }
 
 td button {
     background-color: #fadf63;
-    width: 150px;
+    width: 200px;
     height: 30px;
     border-radius: 5px;
     color: black;
