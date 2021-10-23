@@ -1,0 +1,40 @@
+.tamanho{ 
+width:auto;
+height:auto;
+text-align: center;
+}
+
+.tamanho2{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.centro{
+    text-align: center;
+}
+
+.meio{
+    text-align: center;
+}
+
+.separa{
+    text-align: right;
+    }
+
+body{
+background-image: url(img/fundo.jpeg);
+background-repeat: no-repeat;}
+
+.final{
+    text-align: end;
+    margin-top: 80px;
+}
+
+.linha{
+    display: inline;
+}
+.texto{
+    text-align: justify;
+    font-size: 16;
+    font-family: cursive;
+}
