@@ -1,0 +1,28 @@
+*{ margin: 0; padding: 0; } 
+
+header{
+border: 1px solid black;
+display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 10x;
+ background-color: mediumvioletred;
+ }
+
+ footer{
+     display: flex;
+     background-color: mediumvioletred;
+    justify-content: center;
+ }
+
+ main{
+    display: grid;
+    background-color: #f2d0e0;
+    border: 1px solid black;
+    grid-template-columns: 200px 1fr 300px;}
+#menu{
+    display:flex;
+    justify-content: space-between;
+
+}
+    
