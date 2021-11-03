@@ -1,0 +1,26 @@
+.cardPeq-info {
+    display: flex;
+    align-items:flex-start;
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+.cardPeq-info > img {
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+}
+
+.cardPeq-info h4 {
+    margin-bottom: 10px;
+    text-align: start;
+}
+
+.cardPeq-info > div {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+}
