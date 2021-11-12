@@ -111,18 +111,11 @@ function retornaPessoaAnonimizada(pessoa) {
 }
 
 // EXERCÍCIO 13A
-const pessoasNaFila=[
-    { nome: "Paula", idade: 12, altura: 1.8},
-    { nome: "João", idade: 20, altura: 1.3},
-    { nome: "Pedro", idade: 15, altura: 1.9},
-    { nome: "Luciano", idade: 22, altura: 1.8},
-    { nome: "Artur", idade: 10, altura: 1.2},
-    { nome: "Soter", idade: 70, altura: 1.9}]
+
 function retornaPessoasAutorizadas(pessoas) {
-    const pessoasAutorizadas = 60 <pessoas.idade>14 && pessoas.altura>1.50
-    return pessoasAutorizadas
+   
 }
-const autorizados = pessoasNaFila.filter(retornaPessoasAutorizadas)
+
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
