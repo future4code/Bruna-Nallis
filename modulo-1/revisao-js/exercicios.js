@@ -111,9 +111,11 @@ function retornaPessoaAnonimizada(pessoa) {
 }
 
 // EXERCÍCIO 13A
+
 function retornaPessoasAutorizadas(pessoas) {
    
 }
+
 
 // EXERCÍCIO 13B
 function retornaPessoasNaoAutorizadas(pessoas) {
