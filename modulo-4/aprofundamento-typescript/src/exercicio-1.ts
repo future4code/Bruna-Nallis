@@ -11,11 +11,11 @@ import { NumericLiteral } from "typescript"
 
 //B
 
-type NumandString= number|string
+let numAndString: number|string
 
-const meuNumero : NumandString = 'dois'
+numAndString = '12345'
 
-console.log(meuNumero)
+console.log(numAndString)
 
 //C-D 
 
