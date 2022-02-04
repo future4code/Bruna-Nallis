@@ -1,11 +1,11 @@
 //Exercicio 3
 
-type post={
+type Post={
     autor: string,
-    texto: string|number
+    texto: string
 }
 
-const posts: post=[
+const posts: Post[]=[
      {
       autor: "Alvo Dumbledore",
       texto: "Não vale a pena viver sonhando e se esquecer de viver"
@@ -30,11 +30,10 @@ const posts: post=[
   console.log(posts)
   
 
-  function buscarPostsPorAutor(posts: any[], autorInformado: any) {
+  function buscarPostsPorAutor(posts: Post[], autorInformado: string): Post[] | [] {
     return posts.filter(
-      (post: { autor: any }) => {
+      (post) => {
         return post.autor === autorInformado
       }
     )
   }
-  
